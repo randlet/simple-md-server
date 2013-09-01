@@ -11,6 +11,7 @@ Installation
 
 These install instructions will put servemd.py in your Python scripts file
 
+::
     git clone https://github.com/randlet/simple-md-server
     cd simple-md-server
     python setup.py install
