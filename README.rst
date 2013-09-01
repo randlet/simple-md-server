@@ -2,7 +2,8 @@
 Simple Markdown Server
 ===============================
 
-A basic example of using Python's SocketServer & SimpleHTTPRequestHandler to convert Markdown documents to HTML on the fly.
+A basic example of using Python's SocketServer & SimpleHTTPRequestHandler. In this case 
+the server is used to convert Markdown documents to HTML on the fly.
 
 * Free software: BSD license
 
@@ -20,7 +21,7 @@ Features
 --------
 
 * Serves local .md & .markdown files as html by using the markdown2 library to convert them on the fly.
-
+* There are no other features :)
 
 Usage
 -----
