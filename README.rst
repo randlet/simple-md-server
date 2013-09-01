@@ -2,22 +2,29 @@
 Simple Markdown Server
 ===============================
 
-.. image:: https://badge.fury.io/py/simple-md-server.png
-    :target: http://badge.fury.io/py/simple-md-server
-    
-.. image:: https://travis-ci.org/randlet/simple-md-server.png?branch=master
-        :target: https://travis-ci.org/randlet/simple-md-server
-
-.. image:: https://pypip.in/d/simple-md-server/badge.png
-        :target: https://crate.io/packages/simple-md-server?version=latest
-
-
 A basic example of using Python's SocketServer & SimpleHTTPRequestHandler to convert Markdown documents to HTML on the fly.
 
 * Free software: BSD license
-* Documentation: http://simple-md-server.rtfd.org.
+
+Installation
+------------
+
+These install instructions will put servemd.py in your Python scripts file
+
+git clone https://github.com/randlet/simple-md-server
+cd simple-md-server
+python setup.py install
 
 Features
 --------
 
-* TODO
+* Serves local .md & .markdown files as html by using the markdown2 library to convert them on the fly.
+
+
+Usage
+-----
+
+For usage instructions
+
+> servemd.py -h
+
