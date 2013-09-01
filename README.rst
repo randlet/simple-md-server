@@ -10,7 +10,8 @@ the server is used to convert Markdown documents to HTML on the fly.
 Installation
 ------------
 
-These install instructions will put servemd.py in your Python scripts file
+These install instructions will put servemd.py in your Python Scripts directory
+meaning servemd.py should be in your $PATH after installation.
 
 
 | git clone https://github.com/randlet/simple-md-server
